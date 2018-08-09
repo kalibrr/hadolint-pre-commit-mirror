@@ -1,0 +1,7 @@
+- id: hadolint
+  name: Hadolint
+  description: Haskell-based Docker image linter
+  language: docker_image
+  types:
+  - dockerfile
+  entry: --entrypoint /bin/hadolint hadolint/hadolint:v1.10.4 -
